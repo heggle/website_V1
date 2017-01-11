@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="ico/favicon.png">
@@ -33,8 +34,47 @@
 
 </head>
 
-<body data-spy="scroll" data-offset="0" data-target="#nav">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 	
+	<!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i> <span class="light">Home
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#resume">Resume</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+	
+	<!--
 	<div id="section-topbar">
 		<div id="topbar-inner">
 			<div class="container">
@@ -45,23 +85,59 @@
 							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume">Resume</a></li>
 							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works">Works</a></li>
 							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact">Contact</a></li>
-						</ul><!--/ uL#nav -->
-					</div><!-- /.dropdown -->
+						</ul>
+					</div>
 					<div class="clear"></div>
-				</div><!--/.row -->
-			</div><!--/.container -->
+				</div>
+			</div>
 			<div class="clear"></div>
-		</div><!--/ #topbar-inner -->
-	</div><!--/ #section-topbar -->
+		</div>
+	</div>
+	-->
+	<!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="brand-heading">Hilary Egglestone</h1>
+     
+                    	<ul class="list-inline intro-social-buttons">
+							<li>
+								<a href="http://linkedin.com/"><i class="fa fa-linkedin fa-3x"></i></a>
+							</li>
+					
+							<li>
+								<a href="https://github.com/heggle/"><i class="fa fa-github fa-3x"></i></a>
+							</li>
+
+							<li>
+								<a href="http://linkedin.com/"><i class="fa fa-twitter fa-3x"></i></a>
+							</li>
+				
+							<li>
+								<a href="http://linkedin.com/"><i class="fa fa-envelope fa-3x"></i></a>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+            </div>
+        </div>
+    </header>
 	
+
+
+
+	<!--
 	<div id="headerwrap">
 		<div class="container">
 			<div class="row centered">
 				<div class="col-lg-12">
 					<h1>Hilary Egglestone</h1>
-				</div><!--/.col-lg-12 -->
+				</div>
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-			</div><!-- /row -->
+			</div>
 				
 			<div id="contact-row-4" class="row">
 				<ul class="list-inline intro-social-buttons">
@@ -81,30 +157,31 @@
 						<a href="http://linkedin.com/"><i class="fa fa-envelope fa-3x"></i></a>
 					</li>
 				</ul>
-			</div><!--/.row -->
+			</div>
 		
-		</div><!--/.container -->
-	</div><!--/.#headerwrap -->
-	
+		</div>
+	</div>
+	-->
 
-	<section id="about" name="about"></section>
-	<div id="intro">
-		<div class="container">
-			<div class="row">
+	<section id="about" class="containers">
+		<div id="about_intro">
+			<div class="container">
+				<div class="row">
 				
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>ABOUT</h5>
-				</div>
-				<div class="col-lg-6">
-					<p>I'm an electrical engineering student at the Univeristy of Victoria.</p>
-				</div>
-				<div class="col-lg-3">
-					<p>	<img class="img-circle" src="img/logo.jpg" width="250" height="250" class="mb-7 hero-image"></p>
-				</div>
+					<div class="col-lg-2 col-lg-offset-1">
+						<h5>ABOUT</h5>
+					</div>
+					<div class="col-lg-6">
+						<p>I'm an electrical engineering student at the Univeristy of Victoria.</p>
+					</div>
+					<div class="col-lg-3">
+						<p>	<img class="img-circle" src="img/logo.jpg" width="250" height="250" class="mb-7 hero-image"></p>
+					</div>
 				
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/ #intro -->
+				</div><!--/.row -->
+			</div><!--/.container -->
+		</div><!--/ #intro -->
+	</section>
 
 
 	<section id="resume" name="resume"></section>
