@@ -23,7 +23,7 @@ html {
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
-    font-weight: 300;
+    font-weight: 400;
     color: #333;
 }
 
@@ -93,6 +93,7 @@ hr {
 
 
 .light {
+  font-family:  "Raleway";
   font-weight: 400;
 }
 /*---------------------------------------------------
