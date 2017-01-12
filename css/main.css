@@ -48,7 +48,6 @@ p {
 
 
 a {
-   
     font-size: 18px;
     color: #fff;
     word-wrap: break-word;
@@ -61,7 +60,6 @@ a {
     transition: color 0.1s ease-in, background 0.1s ease-in;
     
 }
-
 
 a:hover,
 a:focus {
@@ -82,8 +80,6 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
     
 }
-
-
 
 hr {
     display: block;
@@ -335,7 +331,6 @@ ul.intro-social-buttons > li {
 /* Intro Wrap */
 
 
-
 #about {
 	background: #2c3e50;
 	padding-top: 60px;
@@ -405,7 +400,7 @@ ul.intro-social-buttons > li {
 
 
 /* Global Values */
-/*
+
 .desc {
 	padding-top: 50px;
 }
@@ -428,7 +423,7 @@ ul.intro-social-buttons > li {
 .desc more {
 	color: #95a5a6;
 }
-*/
+
 ::-moz-selection {
   text-shadow: none;
   background: #fcfcfc;
