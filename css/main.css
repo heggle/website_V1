@@ -126,7 +126,7 @@ hr {
 .navbar-custom a {
   font-family: "Raleway";
   font-weight: 500; /*Changed this font-weight from 700 for menu*/
-  color: black;
+  color: white;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
