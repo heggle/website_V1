@@ -51,6 +51,9 @@ p {
 
 a {
    
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 18px;
     color: #fff;
     word-wrap: break-word;
     overflow: auto;
@@ -147,7 +150,7 @@ hr {
 
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 20px 0;
+    padding: 20px;
     border-bottom: none;
     letter-spacing: 1px;
     background: transparent;
@@ -271,16 +274,15 @@ ul.intro-social-buttons > li {
     height: 100%;
     padding: 0;
   }
+  /* This is where to chance font size and spacing for the title and icons */
   .intro .intro-body .brand-heading {
-    font-size: 100px;
+    font-size: 120px;
+    padding: 25px;
+    color: white;
   }
   .intro .intro-body .intro-text {
     font-size: 26px;
   }
-}
-.intro h1{
-  font-size: 100px;
-  color: white;
 }
 
 
