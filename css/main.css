@@ -288,7 +288,7 @@ ul.intro-social-buttons > li {
 }
 
 .content-section {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 
@@ -400,9 +400,8 @@ ul.intro-social-buttons > li {
 
 
 /* Global Values */
-
 .desc {
-	padding-top: 50px;
+	padding-top: 60px;
 }
 
 .desc p {
@@ -422,17 +421,6 @@ ul.intro-social-buttons > li {
 
 .desc more {
 	color: #95a5a6;
-}
-
-::-moz-selection {
-  text-shadow: none;
-  background: #fcfcfc;
-  background: rgba(255, 255, 255, 0.2);
-}
-::selection {
-  text-shadow: none;
-  background: #fcfcfc;
-  background: rgba(255, 255, 255, 0.2);
 }
 
 img::selection {
