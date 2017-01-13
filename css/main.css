@@ -22,7 +22,7 @@ html {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Raleway";
     font-weight: 400;
     color: #333;
@@ -54,6 +54,7 @@ a {
     color: #fff;
     word-wrap: break-word;
     overflow: auto;
+    padding: 10px;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -65,7 +66,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #8BF7D7;
+    color: black;
     text-decoration: none;
     outline: 0;
 }
@@ -170,85 +171,6 @@ hr {
   }
 }
 
-
-/*---------------------------------------------------
-	3.1 Topbar
----------------------------------------------------*/
-/*
-#section-topbar {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 10000;
-	overflow: visible;
-	font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-#section-topbar a {
-  color: #fff;
-}
-
-#topbar-inner {
-	background: #111;
-	line-height: 0;
-	text-align: right;
-}
-
-
-#section-topbar ul#nav {
-	display: inline-block;
-	position: relative;
-	margin: 0;
-	padding: 0;
-
-	border-right: 1px solid #222;
-
-	zoom:1;
-	*display: inline;
-}
-
-#section-topbar ul#nav > li {
-	display: block;
-    float: left;
-    padding: 0;
-}
-
-
-#section-topbar ul#nav a {
-  display: block;
-  font: normal 14px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-decoration: none;
-  padding: 18px 20px 18px 20px;
-  border-left: 1px solid #222;
-}
-
-#section-topbar ul#nav a:hover {
-	background: #222;
-	text-decoration: none;
-	border-left: 1px solid #111;
-}
-
-#section-topbar ul#nav .active a {
-	background: #44bbaa;
-	border-left: 1px solid #111;
-}
-
-#section-topbar ul#nav .active a:hover {
-	background: #44bbaa;
-}
-
-#section-topbar i {
-	font-size: 25px;
-}
-
-ul.intro-social-buttons > li {
-    margin-bottom: 50px;
-    padding: 30px;
-}
-*/
-
-
 /*---------------------------------------------------
 	SECTION WRAPS
 ---------------------------------------------------*/
@@ -282,8 +204,9 @@ ul.intro-social-buttons > li {
   /* This is where to chance font size and spacing for the title and icons */
   .intro .intro-body .brand-heading {
     font-size: 80px;
-    padding: 25px;
+    padding: 10px; /*vertical space between icons and name*/
     color: white;
+    font-weight: 300; 
   }
   .intro .intro-body .intro-text {
     font-size: 26px;
@@ -293,46 +216,6 @@ ul.intro-social-buttons > li {
 .content-section {
   padding-top: 50px;
 }
-
-
-/* Header Wrap */
-/*
-#headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
-	margin-top: 50px;
-	padding-top:140px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 700px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-	
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-}
-
-#headerwrap h1 {
-	font-size: 80px;
-	color: white;
-}
-
-#headerwrap h3 {
-	font-size: 20px;
-	color: white;
-}
-*/
-
-/* Intro Wrap */
-
 
 #about {
 	background: #2c3e50;
@@ -424,6 +307,10 @@ ul.intro-social-buttons > li {
 
 .desc more {
 	color: #95a5a6;
+}
+
+.desc em {
+ font-weight: 400; 
 }
 
 img::selection {
