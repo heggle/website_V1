@@ -72,6 +72,9 @@ a:focus {
 }
 
 
+
+
+
 a:before,
 a:after {
 
@@ -267,7 +270,7 @@ hr {
 }
 
 #footwrap i {
-	padding-right: 8px;
+	padding: 0px;
 	color: #1abc9c;
 }
 
