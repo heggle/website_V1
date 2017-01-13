@@ -306,7 +306,7 @@ hr {
 }
 
 .desc more {
-	color: #95a5a6;
+	color: #2f2f2f;
 }
 
 .desc em {
@@ -314,7 +314,7 @@ hr {
 }
 
 .content-section t {
-  /*color: #1abc9c;*/
+  color: white;
   font-weight: 700;
 
 }
