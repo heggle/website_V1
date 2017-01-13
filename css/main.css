@@ -313,6 +313,18 @@ hr {
  font-weight: 400; 
 }
 
+.content-section t {
+  /*color: #1abc9c;*/
+  font-weight: 700;
+
+}
+
+.skill-word {
+  color: #1abc9c;
+  font-weight: 500;
+}
+
+
 img::selection {
   background: transparent;
 }
