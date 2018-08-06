@@ -221,7 +221,7 @@ hr {
 }
 
 #about {
-	background: #2c3e50;
+	background: #000063;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
@@ -241,7 +241,7 @@ hr {
 
 #skillswrap {
   /*Change padding top for skill section */
-	background: #2c3e50;
+	background:#000063;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	color: white;
@@ -315,6 +315,10 @@ hr {
 
 .desc em {
  font-weight: 400; 
+}
+
+.desc italic{
+font-style: italic;
 }
 
 .content-section t {
