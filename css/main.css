@@ -221,7 +221,7 @@ hr {
 }
 
 #about {
-	background: #000063;
+	background: #424242;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
@@ -241,7 +241,7 @@ hr {
 
 #skillswrap {
   /*Change padding top for skill section */
-	background:#000063;
+	background:#424242;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	color: white;
@@ -272,7 +272,7 @@ hr {
 
 #footwrap i {
 	padding: 0px;
-	color: #1abc9c;
+	color: #ffd54f;
 }
 
 /* Copyright Wrap */
@@ -299,14 +299,14 @@ hr {
 }
 
 .desc t {
-	color: #000063;
+	color: #424242;
 	font-weight: 700;
 }
 
 .desc imp {
 	padding: 6px;
 	color: white;
-	background: #000063;
+	background: #424242;
 }
 
 .desc more {
@@ -328,7 +328,7 @@ font-style: italic;
 }
 
 .skill-word {
-  color: #1abc9c;
+  color: #ffd54f;
   font-weight: 500;
 }
 
