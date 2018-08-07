@@ -4,7 +4,7 @@
 body {
 	width: 100%;
   	height: 100%;
-  	background-color: #f2f2f2;
+  	background-color: #fffff;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -51,7 +51,7 @@ p {
 a {
     font-family: "Raleway";
     font-size: 18px;
-    color: #fff;
+    color: #ffffff;
     word-wrap: break-word;
     overflow: auto;
     padding: 10px;
@@ -209,7 +209,7 @@ hr {
     font-size: 80px;
     padding: 10px; /*vertical space between icons and name*/
     color: white;
-    font-weight: 300; 
+    font-weight: 350; 
   }
   .intro .intro-body .intro-text {
     font-size: 26px;
@@ -299,14 +299,14 @@ hr {
 }
 
 .desc t {
-	color: #34495e;
+	color: #000063;
 	font-weight: 700;
 }
 
 .desc imp {
 	padding: 6px;
 	color: white;
-	background: #34495e;
+	background: #000063;
 }
 
 .desc more {
